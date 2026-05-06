@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>turtlebot3_avoidance</name>
+  <version>1.0.0</version>
+  <description>Official-style obstacle avoidance for TurtleBot3</description>
+  <maintainer email="student@usthb.dz">USTHB Student</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
